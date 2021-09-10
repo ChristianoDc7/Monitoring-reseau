@@ -1,0 +1,81 @@
+.liste{
+width:150px;
+margin-bottom:3px;
+margin-top:5px;
+background-color:#000;
+color:#ffffff;
+border: 3px solid #999900;
+}
+.tableau {
+margin-top:0px;
+border: medium solid #000;
+border-collapse: collapse;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+text-align:left;
+cursor:default;
+
+}
+.tableau caption
+{
+text-align:center;
+background-color:#000;
+font-family:"Trebuchet MS",Verdana,Helvetica,sans-serif;
+font-weight:bold;
+font-size:14pt;
+color:#999900;
+padding:5px;
+margin-top:3px;
+}
+.tableau th {
+font-family:"Myriad Pro Light",Verdana,Helvetica,sans-serif;
+border: thin solid #999999;
+padding: 2px;
+background-color: #dee072;
+font-size:14px;
+font-weight:bold;
+text-align:center;
+}
+.tableau td {
+font-family:Verdana, Arial, Helvetica,serif;
+border: thin solid #999999;
+padding: 10px;
+font-weight:bold;
+cursor:pointer;
+}
+.desactive
+{
+background-color:#dddddd;
+}
+td.ferier
+{
+background-color:#9cbdfb;
+}
+.special
+{
+background-color:#16f26e;
+color:#990000;
+text-decoration:blink;
+}
+#notif
+{
+	padding:5px 10px;
+	margin-top:10px;
+	border:2px solid #000000;
+	width:100%;
+	background-color:#996633;
+	color:#FFFFFF;
+	font-size:15pt;
+}
+#lien {margin-top:20px;}
+#lien a,#lien a:visited{
+padding:10px 30px;
+background-color:#336633;
+color:#FFFFFF;
+border:1px solid #333333;
+text-decoration:none;
+}
+#lien a:hover{
+background-color:#339900;
+}

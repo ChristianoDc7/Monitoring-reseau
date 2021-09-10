@@ -1,0 +1,30 @@
+-- phpMyAdmin SQL Dump
+-- version 2.9.1.1
+-- http://www.phpmyadmin.net
+-- 
+-- Serveur: localhost
+-- Généré le : Jeudi 10 Septembre 2009 à 15:56
+-- Version du serveur: 5.0.27
+-- Version de PHP: 5.2.0
+-- 
+-- Base de données: `agenda`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Structure de la table `agenda`
+-- 
+
+CREATE TABLE `agenda` (
+  `id` int(4) NOT NULL auto_increment,
+  `dt` date NOT NULL,
+  `lieu` varchar(100) NOT NULL,
+  `event` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
+
+-- 
+-- Contenu de la table `agenda`
+-- 
+

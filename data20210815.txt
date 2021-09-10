@@ -1,0 +1,4 @@
+username	received(byte)	sent(byte)
+WINXP1	508361	26411
+WINSERVEN	1810712	290439
+WINXP0	0	0
