@@ -1,4 +1,5 @@
 <?php
+require_once './mysql2pdo.php';
 $adr_base="localhost";//adresse du base
 $log_base="root";//login du base
 $pass_base="";//mot de passe du base
